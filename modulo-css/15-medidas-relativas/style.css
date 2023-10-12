@@ -1,0 +1,29 @@
+html {
+   background-color: rgb(117, 144, 254);
+   font-size: 32px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+   background-color: brown;
+   padding: 15px;
+   color: aliceblue;
+   border-radius: 1em;
+
+}
+
+.pai {
+   background-color: #f3d5f6;
+   color: brown;
+   padding: 15px;
+   font-weight: bolder;
+   border-radius: 1em;
+}
+
+.filha {
+   padding: 12px;
+   background-color: #dc143ccf;
+   color: aliceblue; 
+   border-radius: 1em;
+}

@@ -1,0 +1,20 @@
+#page-description {
+  color: rgb(14, 156, 52);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.savory-food-title {
+  background-color: cornflowerblue;
+  padding: 5px;
+  
+}
+
+.sweet-food-title {
+  background-color: darkorchid;
+}
+
+.food-description {
+  padding: 5px;
+  border: solid 2px black;
+}

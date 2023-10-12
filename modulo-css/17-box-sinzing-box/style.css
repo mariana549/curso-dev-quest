@@ -1,0 +1,17 @@
+div {
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+   border: 10px solid rgb(0, 140, 255);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+}
+
+.com-border {
+   background-color: aqua;
+   box-sizing: border-box;
+}
+
+.sem-border {
+   background-color: rgb(255, 127, 246);
+}
