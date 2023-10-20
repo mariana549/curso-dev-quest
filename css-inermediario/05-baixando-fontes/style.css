@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'chocolate';
+   src: url(./fonts/Power\ Chocolate.otf);
+}
+
+
+h1 {
+   font-family: 'chocolate';
+   font-size: 50px;
+}

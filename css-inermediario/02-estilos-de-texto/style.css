@@ -1,0 +1,85 @@
+/* -----------TEXT ALIGN----------- */
+
+.alinhado-esquerda {
+   text-align: left;
+}
+
+.alinhado-direita {
+   text-align: right;
+}
+
+.alinhado-centro {
+   text-align: center;
+}
+
+.alinhado-justificado{
+   text-align: justify;
+}
+
+
+/* -------------------------------text transform--------------------------------- */
+
+.maiuscula {
+   text-transform: uppercase;
+}
+
+.minuscula {
+   text-transform: lowercase;
+}
+
+.capitalizado {
+   text-transform: capitalize;
+}
+
+/* ---------------------------------text decoration------------------------------- */
+
+.sublinhado {
+   text-decoration: underline;
+}
+
+.linha-sobreposta {
+   text-decoration: line-through;
+}
+
+.sem-text-decoration {
+   text-decoration: none;
+}
+
+/* ----------------------letter spacing------------------------------- */
+
+.altura-entre-linhas {
+   line-height: 40px;
+}
+
+/* -------------------------sombra de texto------------------------------- */ 
+
+.sombra-de-texto {
+   text-shadow: 10px 10px 1px #616161;
+}
+
+
+/* ----------------------------geral------------------------- */
+
+.fundo-alinhado{
+   padding: 20px;
+   background-color: #cc85cb;
+}
+
+.fundo-transform{
+   padding: 20px;
+   background-color: beige;
+}
+
+.fundo-decoration{
+   padding: 20px;
+   background-color: burlywood;
+}
+
+.fundo{
+   padding: 20px;
+   background-color:lightgrey;
+}
+
+html {
+   font-size: 24px;
+}

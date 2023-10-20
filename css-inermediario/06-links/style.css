@@ -1,0 +1,20 @@
+
+a {
+   cursor: pointer;
+   margin: 20px;
+   padding: 10px;
+
+}
+a:visited {
+   color: rgb(199, 7, 242);
+}
+a:active {
+   color: rgb(155, 29, 190);
+}
+a:hover {
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 22px;
+  box-shadow: 4px 4px 5px black;
+  text-decoration: none;
+}
