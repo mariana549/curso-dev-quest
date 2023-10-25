@@ -1,0 +1,23 @@
+p:first-child{
+   color: rgb(10, 180, 180);   
+}
+
+p:last-child{
+   color: blueviolet;   
+}
+
+p:not(.padrão){
+   color: rgb(100, 100, 29);
+}
+
+/* li:nth-child(odd){
+   color: red;
+} */
+
+li:nth-last-child(odd){
+   color: red;
+}
+
+p:only-child{
+   color: brown;
+}
