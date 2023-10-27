@@ -1,0 +1,13 @@
+.container{
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.container div{
+   background-color: aqua;
+   color: aliceblue;
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+}
+
