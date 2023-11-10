@@ -1,0 +1,16 @@
+.container div {
+  background-color: blueviolet;
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;}
+
+.container {
+   display: grid;
+   /* grid-template-columns: repeat(4, auto);
+   grid-template-rows: repeat(2, 150px); */
+   grid-template:  repeat(2, 150px)/ repeat(4, auto);
+
+   grid-gap: 10px 50px;
+   /* grid-column-gap: 10px;
+   grid-row-gap: 50px; */
+}
