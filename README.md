@@ -23,7 +23,7 @@ Ao final do curso, os alunos que concluírem todos os módulos e desafios recebe
 
 ## 🙋‍♂️ Sobre mim
 
-Eu sou um aluno do curso DevQuest Dev em Dobro e estou aprendendo muito sobre desenvolvimento web. Eu comecei o curso em outubro de 2023 e estou muito empolgado com os projetos que vou criar. Eu tenho interesse em tecnologia, programação e design. Você pode me encontrar nas redes sociais:
+Eu sou um aluna do curso DevQuest Dev em Dobro e estou aprendendo muito sobre desenvolvimento web. Eu comecei o curso em outubro de 2023 e estou muito empolgada com os projetos que vou criar. Eu tenho interesse em tecnologia, programação e design. Você pode me encontrar nas redes sociais:
 
 - [GitHub](https://github.com/mariana549)
 - [LinkedIn](https://www.linkedin.com/in/mariana-ant%C3%B4nia-6694b5245/)
