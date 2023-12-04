@@ -2,4 +2,6 @@
 
 // window.confirm("deseja continuar?")
 
-prompt("digite sua idade")
+let idade = prompt("digite sua idade")
+
+console.log(idade)
