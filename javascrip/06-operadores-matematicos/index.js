@@ -1,4 +1,12 @@
-let primeiroValor = 4
+let primeiroValor = 10
 let segundoValor = 2
 
-primeiro
+console.log(primeiroValor + segundoValor)
+
+console.log(primeiroValor - segundoValor)
+
+console.log(primeiroValor / segundoValor)
+
+console.log(primeiroValor * segundoValor)
+
+console.log(primeiroValor % segundoValor)
