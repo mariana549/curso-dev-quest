@@ -1,0 +1,10 @@
+:root {
+   /* fonts */
+   --font : 'Roboto Mono', monospace;
+
+   /* cores */
+   --primeiraCor: #C50000;
+   --segundaCor: #D9DD10;
+   --terceiraCor: #A63A17;
+   --quartaCor: #10ACDD;
+}
