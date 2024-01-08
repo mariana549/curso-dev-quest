@@ -4,6 +4,11 @@
    display: flex;
    align-items: center;
    padding-left: 11.25em;
+
+}
+
+.esquerdaSeta{
+   right: 5%;
 }
 
 .informacoes {
@@ -12,6 +17,7 @@
    width: 620px;
    height: 700px;
    padding: 65px 60px 65px 60px;
+   position: relative;
 }
 
 .tituloPrincipal {
