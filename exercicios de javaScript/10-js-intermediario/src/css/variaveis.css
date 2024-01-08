@@ -1,6 +1,6 @@
 :root {
    /* fonts */
-   --font : 'Roboto Mono', monospace;
+   --font : 'Roboto', sans-serif;
 
    /* cores */
    --primeiraCor: #C50000;

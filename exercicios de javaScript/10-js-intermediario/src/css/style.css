@@ -1,3 +1,22 @@
 .container {
    height: 100vh;
+   background: url("/10-js-intermediario/src/image/flowes-img1.png") no-repeat center;
+   display: flex;
+   align-items: center;
+   padding-left: 11.25em;
+}
+
+.informacoes {
+   background-color: #fff;
+   border-radius: 10px;
+   width: 620px;
+   height: 700px;
+   padding: 65px 60px 65px 60px;
+}
+
+.tituloPrincipal {
+   color: #000;
+   font-family: var(--font);
+   font-size: 50px;
+   font-weight: 400;
 }
