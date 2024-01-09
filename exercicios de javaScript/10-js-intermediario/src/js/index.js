@@ -1,33 +1,40 @@
-// let titulo = document.querySelector('.tituloPrincipal')
-// let paragrafro = document.querySelector('.descricao')
-// let linkSaibaMais = document.querySelector('.link')
+let buttonVoltarPagina = document.querySelector('.esquerdaSeta');
+let buttonProximaPagina = document.querySelector('.direitaSeta');
 
-// function conteudo() {
-//    let infor1 = document.querySelector('.info1')
-//    let infor2 = document.querySelector('.info2')
-//    let infor3 = document.querySelector('.info3')
-//    let infor4 = document.querySelector('.info4')
-//    let block = document.querySelector('.block')
-//    let none = document.querySelector('.none')
+let primeiraDescricao = document.querySelector('.primeiro')
+let segundaDescricao = document.querySelector('.segundo')
+let terceiraDescricao = document.querySelector('.terceiro')
+let quaartaDescricao = document.querySelector('.quarta')
 
-//    let informacoes = [infor1, infor2, infor3, infor4];
+let paginas = [primeiraDescricao, segundaDescricao, terceiraDescricao, quaartaDescricao];
 
-//    let mostrar = informacoes.forEach(element => {
-//       if (element === 'block'){
-//             return(element)
-//       }
-//    });
-//    console.log(mostrar)
-// }
-// conteudo()
+let index = 0;
 
-// function mudarDePaisagem() {
-//    let buttonVoltarPagina = document.querySelector('.esquerdaSeta');
-//    let buttonProximaPagina = document.querySelector('.direitaSeta');
-//    let ProximaPagina = buttonProximaPagina
-//    let VoltarPagina = buttonVoltarPagina
+if (paginas[index].classList.contains("none")) {
+   paginas[index].classList.remove('none');
+}
+for (let i = 1; i < paginas.length; i++){
+   paginas[i].classList.add('none');
+}
 
+buttonProximaPagina.addEventListener('click', ()=> {
+   paginas[index].classList.add('none');
+   index++;
 
+   if (index >= paginas.length){
+      index = 0;
+   }
 
-// }
-// mudarDePaisagem()
+   paginas[index].classList.remove('none')
+});
+
+buttonVoltarPagina.addEventListener('click', ()=> {
+   paginas[index].classList.add('none');
+   index--;
+
+   if (index < 0){
+      index = paginas.length - 1;
+   }
+
+   paginas[index].classList.remove('none');
+});
