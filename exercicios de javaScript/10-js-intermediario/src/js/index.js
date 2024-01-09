@@ -26,6 +26,8 @@ buttonProximaPagina.addEventListener('click', ()=> {
    }
 
    paginas[index].classList.remove('none')
+
+   buttonAtualizar()
 });
 
 buttonVoltarPagina.addEventListener('click', ()=> {
@@ -37,4 +39,20 @@ buttonVoltarPagina.addEventListener('click', ()=> {
    }
 
    paginas[index].classList.remove('none');
+   
+   buttonAtualizar()
 });
+
+function buttonAtualizar (){
+   if (index == 0) {
+      buttonVoltarPagina.classList.add('desativado')
+   } else if (index == paginas.length - 1) {
+      buttonProximaPagina.classList.add('desativado')
+   } else {
+      buttonVoltarPagina.classList.remove('desativado');
+      buttonProximaPagina.classList.remove('desativado');
+   }
+}
+buttonAtualizar()
+
+
