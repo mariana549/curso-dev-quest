@@ -30,6 +30,26 @@
    padding-left: 11.25em;
 }
 
+.primeiro {
+   background: url("/10-js-intermediario/src/image/flowes-img1.png") no-repeat center;
+   background-size: cover;
+}
+
+.segundo {
+   background: url("/10-js-intermediario/src/image/flowes-img2.png") no-repeat center;
+   background-size: cover;
+}
+
+.terceiro {
+   background: url("/10-js-intermediario/src/image/motainha-img3.png") no-repeat center;
+   background-size: cover;
+}
+
+.quarta {
+   background: url("/10-js-intermediario/src/image/montainha-img4.png") no-repeat center;
+   background-size: cover;
+}
+
 .informacoes {
    background-color: #fff;
    border-radius: 10px;
@@ -59,10 +79,6 @@
    font-size: 30px;
    font-weight: 700;
 }
-
-.block{
-   display: block;
-} 
 
 .none{
    display: none;
