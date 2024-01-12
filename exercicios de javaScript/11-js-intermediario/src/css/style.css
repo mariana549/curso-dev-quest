@@ -7,18 +7,78 @@
    background-color: rgb(229, 229, 229);
 }
 
-.container{
+.container {
    display: flex;
+   align-items: center;
    width: 655px;
    height: 347px;
    background-color: var(--cor-fundo);
    border-radius: 21px;
    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.25);
-   position: relative;
 }
 
-.imagen-de-fora{
-   width: 278px;
+.img {
+   position: relative;
+   left: -95px;
+   width: 220px;
    height: 293px;
+}
+
+.imagen-de-fora {
    position: absolute;
+}
+
+.titulo-principal {
+   color: var(--cor-padrao);
+   font-size: 25px;
+   font-weight: 700;
+   font-family: var(--font);
+   padding-bottom: 15px;
+}
+
+.secao {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: transparent;
+   width: 400px;
+   font-family: var(--font);
+   color: var(--cor-padrao);
+}
+
+h2 {
+   font-size: 17px;
+   font-weight: 500;
+}
+
+.resposta {
+   width: 347px;
+   font-size: 15px;
+   font-weight: 300;
+   padding-top: 5px;
+}
+
+hr {
+   border: 1px solid #a9a9a92b;
+   margin: 10px 0px 10px 0px;
+}
+
+.seta-fechada {
+   background: url(/11-js-intermediario/src/image/seta.png) no-repeat;
+   width: 15px;
+   height: 8.636px;
+}
+
+.seta-aberta {
+   background: url(/11-js-intermediario/src/image/seta\ aberta.png) no-repeat;
+   width: 15px;
+   height: 8.636px;
+}
+
+.aparecer {
+   display: block;
+}
+
+.sumir {
+   display: none;
 }
