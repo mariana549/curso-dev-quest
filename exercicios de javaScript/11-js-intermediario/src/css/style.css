@@ -44,6 +44,7 @@
    width: 400px;
    font-family: var(--font);
    color: var(--cor-padrao);
+   cursor: pointer;
 }
 
 h2 {
@@ -73,10 +74,6 @@ hr {
    background: url(/11-js-intermediario/src/image/seta\ aberta.png) no-repeat;
    width: 15px;
    height: 8.636px;
-}
-
-.aparecer {
-   display: block;
 }
 
 .sumir {
