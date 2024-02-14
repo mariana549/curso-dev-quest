@@ -12,10 +12,10 @@ const calcularValorPedido = pedido => {
 
    const entrega = pedido.itens.filter(item => item.entrega);
 
-   if (valorProdutos > 500){
+   if (valorProdutos > 2000){
       return valorProdutos
    } else {
-      return valorProdutos + entrega.valor
+      return valorProdutos + entrega[0].valor
    }
 }
 
