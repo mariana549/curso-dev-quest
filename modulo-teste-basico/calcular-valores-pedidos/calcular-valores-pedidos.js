@@ -10,7 +10,7 @@ const calcularValorPedido = pedido => {
    .filter(item => !item.entrega)
    .reduce((totalpedidos, pedidoAtual) => totalpedidos + pedidoAtual.valor, 0)
 
-   const entrega = pedidos.itens.filter(item => item.entrega);
+   const entrega = pedido.itens.filter(item => item.entrega);
 
    if (valorProdutos > 500){
       return valorProdutos
