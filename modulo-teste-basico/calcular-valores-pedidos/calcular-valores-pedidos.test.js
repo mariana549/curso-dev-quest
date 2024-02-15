@@ -7,5 +7,6 @@ it('não deve cobra valor de frete quando valor dos produtos for superior a 500'
          {nome: 'entrega', valor: 100, entrega: true}
       ]
    }
-   calcularValorPedido(meuPedido)
+   const resultado = calcularValorPedido(meuPedido)
+   expect(resultado).toBe(2000)
 })
