@@ -19,5 +19,5 @@ const calcularValorPedido = pedido => {
    }
 }
 
-// pedido.itens.reduce((totalpedidos, pedidoAtual) => totalpedidos + pedidoAtual.valor, 0)
+module.exports = calcularValorPedido
 

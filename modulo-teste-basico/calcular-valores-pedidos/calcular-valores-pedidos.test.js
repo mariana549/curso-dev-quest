@@ -1,0 +1,1 @@
+const calcularValorPedido = require('calcular-valores-pedidos.js') 
