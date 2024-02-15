@@ -44,7 +44,7 @@ it ('deve cobrar valor de frete quando valor dos produtos for exatamente 500', (
    expect(reusultado).toBe(600)
 })
 
-// caso os estados sejam RS ou SC, deve ser acresentado um valor de 30% na entrega 
+// caso os estados sejam RS ou SC, deve ser acresentado um valor de 20% na entrega 
 it("deve adicionar um acrecimo de 20% da entrega do pedido caso o estado seja RS", () => {
    const pedidoComEstadoRS = {
       estado: 'RS',
@@ -55,6 +55,20 @@ it("deve adicionar um acrecimo de 20% da entrega do pedido caso o estado seja RS
    }
 
    const resultado = calcularValorPedido(pedidoComEstadoRS)
+
+   expect(resultado).toBe(620)
+})
+
+it("deve adicionar um acrecimo de 20% da entrega do pedido caso o estado seja SC", () => {
+   const pedidoComEstadoSC = {
+      estado: 'SC',
+      itens : [
+         {nome: 'sanduiche de rico', valor: 500},
+         {nome: 'entrega', valor: 100, entrega: true}
+      ]
+   }
+
+   const resultado = calcularValorPedido(pedidoComEstadoSC)
 
    expect(resultado).toBe(620)
 })
