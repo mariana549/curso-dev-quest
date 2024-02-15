@@ -72,3 +72,17 @@ it("deve adicionar um acrecimo de 20% da entrega do pedido caso o estado seja SC
 
    expect(resultado).toBe(620)
 })
+
+it("não deve adicionar um acrecimo de 20% da entrega do pedido caso o estado seja SP", () => {
+   const pedidoComEstadoSP = {
+      estado: 'SP',
+      itens : [
+         {nome: 'sanduiche de rico', valor: 500},
+         {nome: 'entrega', valor: 100, entrega: true}
+      ]
+   }
+
+   const resultado = calcularValorPedido(pedidoComEstadoSP)
+
+   expect(resultado).toBe(600)
+})
