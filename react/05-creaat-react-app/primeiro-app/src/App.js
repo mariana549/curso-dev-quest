@@ -6,8 +6,10 @@ import Card from './components/card/card.js';
 function App() {
   return (
     <>
-      <Button />
-      <Card />
+      <Button  />
+      <Card title="Titulo card 1"/>
+      <Card title="Titulo card 2"/>
+      <Card title="Titulo card 3"/>
     </>
   );
 }
