@@ -1,18 +1,16 @@
  import "./button.css"
- import React, {Component} from "react"
+//  import React, {Component} from "react"
 
-//  const Button = (props) => {
-//    return <button className="btn">{props.label}</button>
-// }
+ const sayHello = () => {
+     console.log("ola mundo!")
+ }
 
-class Button extends Component {
-  render(){
-    return <button className="btn">{this.props.label}</button>
-  }
+ const Button = (props) => {
+   return <button className="btn" onClick={sayHello}>{props.label}</button>
 }
 
 Button.defaultProps = {
-  label: 'clique aqui com class'
+  label: 'clique aqui'
 }
 
 export default Button 
