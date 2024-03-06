@@ -1,10 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+import Button from "./components/button/button.js"
 
 function App() {
   return (
     <>
-      <h1>olá mundo!</h1>
+      <Button />
+      <Button />
+      <Button />
     </>
   );
 }
