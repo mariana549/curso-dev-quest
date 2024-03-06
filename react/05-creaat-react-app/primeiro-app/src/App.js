@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
 import Button from "./components/button/button.js"
-import Card from './components/card/card.js';
+// import Card from './components/card/card.js';
 
 function App() {
   return (
     <>
+      <Button label="Baixar CV" />
+
       <Button />
 
-      <Card>
+      {/* <Card>
         <h3>titulo card 1</h3>
         <p>esse é um texto do card 1</p>
         <Button />
@@ -22,7 +24,7 @@ function App() {
       <Card>
         <h3>titulo card 3</h3>
         <p>esse é um texto do card 3</p>
-      </Card>
+      </Card> */}
     </>
   );
 }
