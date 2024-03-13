@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import Panel from './components/panel/panel';
+import DeckOfCards from './components/deck-of-cards/deck-of-card';
 
 import './App.css';
 
 function App() {
   return (
     <>
-    <Panel>
-
-    </Panel>
+      <DeckOfCards />
     </>
   );
 }
