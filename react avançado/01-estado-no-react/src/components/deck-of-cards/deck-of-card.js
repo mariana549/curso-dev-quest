@@ -7,20 +7,41 @@ async function createDeck(){
 }
 
 async function getCards(deckId){
-   const response = await fetch(`https://deckofcardsapi.com/api/${deckId}/draw/?count=52`)
+   const response = await fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=52`)
    return await response.json()
 }
 
 class DeckOfCards extends Component {
    constructor () {
       super()
-      this.state = {}
+      this.state = {
+         cards: []
+      }
+   }
+
+   async componentDidMount(){
+      const deckId = await createDeck()
+      const data = await getCards(deckId)
+
+      this.setState({
+          cards: data.cards
+         })
    }
 
    render() {
       return (
          <section>
-            <ul></ul>
+            <ul>
+               {
+                  this.state.cards.map((card, index) => {
+                     return (
+                        <li key={index}>
+                           <img src={card.image} alt={card.value} />
+                        </li>
+                     )
+                  })
+               }
+            </ul>
          </section>
       )
    }
