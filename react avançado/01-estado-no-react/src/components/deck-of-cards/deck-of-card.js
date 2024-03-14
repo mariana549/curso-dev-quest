@@ -20,6 +20,7 @@ const CardList = (props) => {
             return (
                <li key={index}>
                   <img src={card.image} alt={card.value} />
+                  <p>{card.value} {card.suit}</p>
                </li>
             )
          })
@@ -46,7 +47,6 @@ const DeckOfCards = () => {
    }, [])
 
    const addCard = (newcard) => {
-      console.log(newcard)
       setDeck({
          cards: [...deck.cards, newcard]
       })
