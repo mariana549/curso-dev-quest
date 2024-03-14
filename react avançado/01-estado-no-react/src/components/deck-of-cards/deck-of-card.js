@@ -12,8 +12,6 @@ async function getCards(deckId) {
    return await response.json()
 }
 
-
-
 const CardList = (props) => {
    return (
       <ul>
@@ -47,9 +45,16 @@ const DeckOfCards = () => {
       fetchData()
    }, [])
 
+   const addCard = (newcard) => {
+      console.log(newcard)
+      setDeck({
+         cards: [...deck.cards, newcard]
+      })
+   }
+
    return (
       <section>
-         <Form />
+         <Form addCard={addCard}/>
          {deck.cards.length > 0 ? <CardList cards={deck.cards}/> : 'nenhuma carta encotrada'}
       </section>
    )
