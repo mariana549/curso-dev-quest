@@ -1,9 +1,7 @@
-import { PostDetails } from '../components/post'
+import { PostsList } from "../components/posts"
 
 const Post = () => {
-    return (
-        <PostDetails />
-    )
+
 }
 
-export { Post }
+export { Post } 
