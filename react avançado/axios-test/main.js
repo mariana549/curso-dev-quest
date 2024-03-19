@@ -2,6 +2,7 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
+import { fetchUserDetails } from './axios.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -19,6 +20,11 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
+  <div>
+    <h1>GitHub User</h1>
+    <div id="user"></div>
+  </div>
 `
 
 setupCounter(document.querySelector('#counter'))
+fetchUserDetails(document.querySelector('#user'), "mariana549")
