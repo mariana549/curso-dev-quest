@@ -1,9 +1,9 @@
 import { PostsList } from "../components/posts"
 
-const Post = () => {
+const Posts = () => {
    return (
       <PostsList />
    )
 }
 
-export { Post } 
+export { Posts } 

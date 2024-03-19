@@ -5,3 +5,5 @@ const Post = () => {
       <PostDetails />
     )
 }
+
+export { Post}
