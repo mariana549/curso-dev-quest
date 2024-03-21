@@ -1,21 +1,24 @@
-export default function Form(){
+import { UseFormInput } from "../hooks/useFormInput"
 
+export default function Form(){
+   const FirstNameProps = UseFormInput("mariana")
+   const lastNameProps = UseFormInput("Antonia")
 
    return(
       <>
       <label>
          First name: 
 
-         <input value={firstName} onChange={handleFirstNameChange}></input>
+         <input {...FirstNameProps}/>
       </label>
 
       <label>
          Last name: 
 
-         <input value={lastName} onChange={handleLastNameChange}></input>
+         <input {...lastNameProps}/>
       </label>
 
-      <p>Bom dia, {firstName} {lastName}!</p>
+      <p>Bom dia, {FirstNameProps.value} {lastNameProps.value}!</p>
       </>
    )
 }
