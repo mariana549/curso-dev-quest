@@ -1,4 +1,5 @@
 import './App.css'
+import Form from './components/form/form'
 import SaveButton from './components/saveButton/saveButton'
 import StatusBar from './components/statusBar/statusBar'
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <StatusBar />
       <SaveButton />
+      <Form />
     </>
   )
 }
