@@ -8,6 +8,7 @@ function App() {
     <ThemeProvider>
       <ThemeTogglerButton />
       <Card/>
+      <Card/>
     </ThemeProvider>
     );
 }
