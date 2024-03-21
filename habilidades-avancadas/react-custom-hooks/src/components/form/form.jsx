@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Form(){
-   const [firstName, setFirstName] = useState("Mari");
+   const [firstName, setFirstName] = useState("Mariana");
    const [lastName, setLastName] = useState("Antonia");
 
    function handleFirstNameChange(event) {
@@ -15,18 +15,18 @@ export default function Form(){
    return(
       <>
       <label>
-         First name:
+         First name: 
 
          <input value={firstName} onChange={handleFirstNameChange}></input>
       </label>
 
       <label>
-         Last name:
+         Last name: 
 
          <input value={lastName} onChange={handleLastNameChange}></input>
       </label>
 
-      <p>Bom dia, {firstName}{lastName}!</p>
+      <p>Bom dia, {firstName} {lastName}!</p>
       </>
    )
 }
