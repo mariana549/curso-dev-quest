@@ -1,5 +1,5 @@
-export const Button = () => {
+export const Button = (props) => {
    return (
-      <button/>
+      <button {...props}/>
    )
 }

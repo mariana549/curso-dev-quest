@@ -7,7 +7,7 @@ export const ThemeTogglerButton = () => {
    console.log('themesToggleButton', themes)
    return (
       <div>
-         <Button />
+         <Button>Clique aqui</Button>
       </div>
    )
 }
