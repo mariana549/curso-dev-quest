@@ -1,7 +1,7 @@
-import { createStore, combaineReducers } from "redux";
+import { createStore, combineReducers } from "redux";
 import cartReduce from './reduces/cart'
 
-const rootReducer = combaineReducers({
+const rootReducer = combineReducers({
    cartProducts: cartReduce
 })
 
