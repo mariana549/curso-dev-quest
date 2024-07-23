@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
 async function getPost(id) {
-    const response = await fetch(`http://localhost:3000/json/post-${id}.json`)
+    console.log(id)
+    const response = await fetch(`http://localhost:3001/json/post-${id}.json`)
     return await response.json()
 }
 
